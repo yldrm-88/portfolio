@@ -1,0 +1,57 @@
+
+.flexbox
+{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  
+}
+.column
+{
+  display: flex;
+  flex-direction: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.img1
+{
+ 
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.392);
+}
+.text
+{
+  margin-left: 30px;
+  width: 500px;
+}
+
+.animasyon
+{
+  width: 400px;
+}
+
+
+
+@media(max-width:750px)
+{
+  .column
+  {
+   display: grid;
+   grid-template-columns: 400px;
+  }
+  .img1
+  {
+    text-align: center;
+  }
+  .text
+  {
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    margin-left: 10px;
+  }
+ 
+}

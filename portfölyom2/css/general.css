@@ -1,0 +1,48 @@
+
+body{
+  font-family: Roboto,Arial;
+  margin: 0;
+  padding: 0;
+
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color:black;
+  justify-content: space-between;
+}
+
+.logo img
+{
+  margin-left: 60px;
+  width: 60px;
+  height: 60px;
+}
+.other_pages
+{
+  display: flex;
+  flex: 1fr 1fr 1fr;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+.other_pages div
+{
+  margin-right: 10px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.other_pages div a
+{
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,105 @@
+
+.flexbox
+{
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.description
+{
+  
+  margin-top: 100px;
+  margin-right: 80px;
+}
+.name
+{
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.job
+{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.text
+{
+  color: green;
+  font-size: 20px;
+  margin-bottom: 15px;
+  
+}
+button
+{
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color,color 0.15s ;
+}
+button:hover
+{
+  background-color: black;
+  color: white;
+}
+.profil
+{
+  display: flex;
+  margin-top: 30px;
+
+}
+ .profil img
+{
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.978);
+
+}
+
+@media (min-width:750px) and (max-width:1000px)
+{
+  .description
+  {
+    width: 50%;
+    text-align: center;
+  }
+  .profil img
+  {
+    width: 85%;
+  }
+}
+
+
+@media(max-width:750px)
+{
+  .flexbox
+  {
+    display: block;
+  }
+  .description
+  {
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .profil  
+  {
+    align-items: center;
+    justify-content: center;
+  }
+  .profil img
+  {
+    width: 80%;
+  }
+}
+
